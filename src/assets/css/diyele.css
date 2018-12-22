@@ -1,0 +1,49 @@
+/* aside tabs */
+.maintab {
+    margin-top: 40px;
+}
+.maintab .el-menu {
+    background-color: #f0f2f5;
+    border-right: none;
+}
+.maintab .el-menu-item-group__title {
+    padding: 0;
+}
+.maintab .el-menu-item, .maintab .el-submenu__title {
+    font-size: 16px;
+}
+/* login view */
+.logininput input.el-input__inner {
+	border-radius: 0;
+    border-top: none;
+	border-left: none;
+	border-right: none;
+}
+/* card view */
+.el-col-offset-1 {
+    margin-left: 10px;
+}
+.el-card {
+    border: 1px solid #ddd;
+}
+.el-card__header {
+    padding: 10px 20px;
+}
+/* tables */
+.el-table {
+    border: 1px solid #ddd;
+}
+.el-table th {
+    background:rgba(246,248,249,1);
+}
+/* edit forms */
+.el-form-item__label {
+    text-align: left;
+}
+.non-border > .el-input__inner{
+    border: 0px;
+    padding-right: 0;
+}
+.non-border > .el-input[class~=el-date-editor] .el-input__inner {
+    padding-left: 0;
+}
